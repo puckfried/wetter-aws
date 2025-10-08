@@ -1,6 +1,13 @@
-h1{
+body {
     text-align: center;
 }
+
+
+.inputField {
+    border: 2px solid green;
+   
+}
+
 .wetterbox {
     width: 500px;
     margin: 100px auto;
