@@ -19,6 +19,7 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::285513790190:role/Github
           aws-region: eu-central-1
+          audience: sts.amazonaws.com
 
       # Sync NUR Web-Dateien aus dem Repo-Root -> S3
       # (verhindert, dass .github/ oder README.md hochgeladen werden)
